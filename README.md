@@ -11,3 +11,10 @@ if you see more than 2 IPs returned, then the DNS issue has been reproduced
 ## clean-up  
 docker stack rm test  
 docker network rm lab-network  
+
+## confirmed on these versions:
+Server Version: 17.03.1-ee-3 with UCP
+7.05.ce without UCP
+13.1 without UCP
+
+
